@@ -1,6 +1,6 @@
 import React from "react";
 
-const CandidateCard = ({ candidate }) => {
+export const CandidateCard = ({ candidate }) => {
   return (
     <div className="candidate-card">
       <h3>{candidate.nome}</h3>
@@ -19,5 +19,3 @@ const CandidateCard = ({ candidate }) => {
     </div>
   );
 };
-
-export default CandidateCard;

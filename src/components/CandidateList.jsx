@@ -1,5 +1,5 @@
 import React from "react";
-import CandidateCard from "./CandidateCard";
+import { CandidateCard } from "./CandidateCard";
 
 const CandidateList = ({ candidates }) => {
   if (!candidates || candidates.length === 0) {
